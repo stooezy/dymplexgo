@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/stooezy/dymplex/cmd"
+	"github.com/stooezy/dymplexgo/cmd"
 )
 
 func main() {

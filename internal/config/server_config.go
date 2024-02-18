@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"github.com/stooezy/dymplex/pkg/util"
+	"github.com/stooezy/dymplexgo/pkg/util"
 )
 
 type Database struct {

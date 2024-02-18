@@ -2,9 +2,9 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/stooezy/dymplex/internal/api"
-	"github.com/stooezy/dymplex/internal/api/router"
-	"github.com/stooezy/dymplex/internal/config"
+	"github.com/stooezy/dymplexgo/internal/api"
+	"github.com/stooezy/dymplexgo/internal/api/router"
+	"github.com/stooezy/dymplexgo/internal/config"
 )
 
 var serverCmd = &cobra.Command{

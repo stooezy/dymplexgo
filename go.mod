@@ -1,4 +1,4 @@
-module github.com/stooezy/dymplex
+module github.com/stooezy/dymplexgo
 
 go 1.22.0
 

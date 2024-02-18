@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/stooezy/dymplex/internal/config"
+	"github.com/stooezy/dymplexgo/internal/config"
 )
 
 type Server struct {

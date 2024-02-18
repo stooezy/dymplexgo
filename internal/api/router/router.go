@@ -4,13 +4,13 @@ import (
 	"net/http"
 
 	"github.com/a-h/templ"
-	"github.com/stooezy/dymplex/internal/api"
-	"github.com/stooezy/dymplex/web"
+	"github.com/stooezy/dymplexgo/internal/api"
+	"github.com/stooezy/dymplexgo/web"
 )
 
 func Init(s *api.Server) {
 	mux := http.NewServeMux()
-	pageIndex := web.PageIndex("Agoy")
+	pageIndex := web.PageIndex()
 	mux.Handle("/", templ.Handler(pageIndex))
 
 	s.Http.Handler = mux
